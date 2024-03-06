@@ -1,0 +1,52 @@
+.bar{
+    width: 20px;
+    margin-top: 23px;
+    margin-left: 4px;
+    border: 1px solid grey;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 10px;
+    animation-name: bar_anime;
+    animation-duration: 0.5s;
+}
+
+.o_bar{
+    animation-name: o_bar_anime;
+    animation-duration: 1.5s;
+}
+
+@keyframes o_bar_anime {
+    80% {margin-top: 20px;}
+    85% {margin-top: 0;}
+    90% {margin-top: 12px;}
+    95% {margin-top: 0;}
+    100%{margin-top: 6px;}
+}
+
+@keyframes bar_anime {
+    0% {height: 0;}
+}
+
+.nums{
+    width: 20px;
+    margin-left: -21px;
+    margin-top: 100px;
+    position: absolute;
+    display: inline-block;
+}
+
+.curr{
+    background-color: burlywood;
+}
+
+.candi{
+    background-color: darksalmon;
+}
+
+.currmin{
+    background-color: chocolate;
+}
+
+.sorted{
+    background-color: cyan;
+}

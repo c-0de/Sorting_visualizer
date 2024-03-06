@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color: burlywood;
+    height: 15vh;
+}
+
+.menu *{
+    margin-right: 5px;
+}
+
+#cont{
+    position: absolute;
+    display: flex;
+    left:32%;
+}
+
+.val{
+    position: absolute;
+}
+
+.innerval{
+    width: 20px;
+    margin-left: 5.6px;
+    display: inline-block;
+    animation-name: val_anime;
+    animation-duration: 0.5s;
+}
+
+@keyframes val_anime {
+    0% {height: 0;}
+}
+
+button{
+    border-style: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.new_arr{
+    width: 150px;
+}
